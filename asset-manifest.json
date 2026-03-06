@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Latest-Portfolio/static/css/main.280a9015.css",
-    "main.js": "/Latest-Portfolio/static/js/main.83e85e6a.js",
-    "static/media/achievement2.JPG": "/Latest-Portfolio/static/media/achievement2.32cd45483d6117dbb461.JPG",
-    "static/media/achievement3.jpg": "/Latest-Portfolio/static/media/achievement3.3ff744b41eaca6bdf06c.jpg",
-    "static/media/achievement1.JPG": "/Latest-Portfolio/static/media/achievement1.f8166938de87679ec9e3.JPG",
-    "static/media/certificate3.jpg": "/Latest-Portfolio/static/media/certificate3.aabddbc5c66d2b4b8bda.jpg",
-    "static/media/movie.png": "/Latest-Portfolio/static/media/movie.92d0d1f894c6f2552cea.png",
-    "static/media/e-commerce.png": "/Latest-Portfolio/static/media/e-commerce.abd1f86f8d3f8f1c5cf0.png",
-    "static/media/achievement4.jpg": "/Latest-Portfolio/static/media/achievement4.00241001cd7d44b34f6a.jpg",
-    "static/media/pic.jpg": "/Latest-Portfolio/static/media/pic.562d5ff8d6d86c9394a9.jpg",
-    "static/media/certificate1.jpg": "/Latest-Portfolio/static/media/certificate1.b7207c8b05773a35ab3f.jpg",
-    "static/media/certificate5.jpg": "/Latest-Portfolio/static/media/certificate5.95cb8ce5ea332541e024.jpg",
-    "static/media/certificate2.jpg": "/Latest-Portfolio/static/media/certificate2.3393253316f7cc960d5e.jpg",
-    "static/media/certificate4.jpg": "/Latest-Portfolio/static/media/certificate4.340720c21b0d62337632.jpg",
-    "static/media/certificate6.png": "/Latest-Portfolio/static/media/certificate6.17df40fc1c013ec967aa.png",
-    "static/media/aishu1.jpeg": "/Latest-Portfolio/static/media/aishu1.a8c9ea85ba00c2aab82d.jpeg",
-    "static/media/carebridge.png": "/Latest-Portfolio/static/media/carebridge.421f3100014d57952c35.png",
-    "index.html": "/Latest-Portfolio/index.html",
-    "main.280a9015.css.map": "/Latest-Portfolio/static/css/main.280a9015.css.map",
-    "main.83e85e6a.js.map": "/Latest-Portfolio/static/js/main.83e85e6a.js.map"
+    "main.css": "/static/css/main.280a9015.css",
+    "main.js": "/static/js/main.3ef91444.js",
+    "static/media/achievement2.JPG": "/static/media/achievement2.32cd45483d6117dbb461.JPG",
+    "static/media/achievement3.jpg": "/static/media/achievement3.3ff744b41eaca6bdf06c.jpg",
+    "static/media/achievement1.JPG": "/static/media/achievement1.f8166938de87679ec9e3.JPG",
+    "static/media/certificate3.jpg": "/static/media/certificate3.aabddbc5c66d2b4b8bda.jpg",
+    "static/media/movie.png": "/static/media/movie.92d0d1f894c6f2552cea.png",
+    "static/media/e-commerce.png": "/static/media/e-commerce.abd1f86f8d3f8f1c5cf0.png",
+    "static/media/achievement4.jpg": "/static/media/achievement4.00241001cd7d44b34f6a.jpg",
+    "static/media/pic.jpg": "/static/media/pic.562d5ff8d6d86c9394a9.jpg",
+    "static/media/certificate1.jpg": "/static/media/certificate1.b7207c8b05773a35ab3f.jpg",
+    "static/media/certificate5.jpg": "/static/media/certificate5.95cb8ce5ea332541e024.jpg",
+    "static/media/certificate2.jpg": "/static/media/certificate2.3393253316f7cc960d5e.jpg",
+    "static/media/certificate4.jpg": "/static/media/certificate4.340720c21b0d62337632.jpg",
+    "static/media/certificate6.png": "/static/media/certificate6.17df40fc1c013ec967aa.png",
+    "static/media/aishu1.jpeg": "/static/media/aishu1.a8c9ea85ba00c2aab82d.jpeg",
+    "static/media/carebridge.png": "/static/media/carebridge.421f3100014d57952c35.png",
+    "index.html": "/index.html",
+    "main.280a9015.css.map": "/static/css/main.280a9015.css.map",
+    "main.3ef91444.js.map": "/static/js/main.3ef91444.js.map"
   },
   "entrypoints": [
     "static/css/main.280a9015.css",
-    "static/js/main.83e85e6a.js"
+    "static/js/main.3ef91444.js"
   ]
 }
