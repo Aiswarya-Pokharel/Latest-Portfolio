@@ -10,8 +10,6 @@ import Contact from "./Components/Contact/Contact.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import About from "./Components/About/About.jsx";
 
-// import { Routes, Route } from "react-router-dom";
-
 function App() {
   React.useEffect(() => {
     AOS.init({

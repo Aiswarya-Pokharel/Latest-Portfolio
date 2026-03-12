@@ -61,6 +61,11 @@ const skills = [
     name: "Node.js",
     color: "#339933",
   },
+  {
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    name: "Python",
+    color: "#3776AB",
+  },
 ];
 
 export default function Skills() {
