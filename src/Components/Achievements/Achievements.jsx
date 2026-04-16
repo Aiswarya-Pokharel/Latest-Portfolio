@@ -19,7 +19,7 @@ const achievements = [
     title: "Nepal's Largest All Female Hackathon",
     subtitle: "1st Runner Up — CareBridge Web Application",
     date: "9th–11th July 2025",
-    tag: " Winner",
+    tag: " 1st Runner Up",
     desc: "Developed a digital care platform connecting careseekers with caretakers. Enabled booking, communication, and service management using React, Tailwind CSS, and Node.js.",
   },
   {
@@ -66,6 +66,15 @@ const achievements = [
     date: "20th Sep 2025",
     tag: " AI",
     desc: "Explored structuring prompts for better AI responses and discovered practical applications of generative AI in problem-solving and productivity.",
+  },
+  {
+    id: 6,
+    images: [null, null],
+    title: "Code Like Her Fellowship",
+    subtitle: "Python & React",
+    date: "Feb 2025 - Present",
+    tag: "Full Stack Journey",
+    desc: "Actively learning and building full stack applications through the Code Like Her program. Working with Django for backend development and React for creating dynamic user interfaces, while developing real-world projects and strengthening core web development skills.",
   },
   {
     id: 7,

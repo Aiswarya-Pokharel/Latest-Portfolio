@@ -66,6 +66,11 @@ const skills = [
     name: "Python",
     color: "#3776AB",
   },
+  {
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+    name: "Django",
+    color: "#092E20",
+  },
 ];
 
 export default function Skills() {
