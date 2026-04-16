@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.280a9015.css",
-    "main.js": "/static/js/main.c1380e75.js",
+    "main.js": "/static/js/main.915eb3f2.js",
     "static/media/achievement2.JPG": "/static/media/achievement2.32cd45483d6117dbb461.JPG",
     "static/media/achievement3.jpg": "/static/media/achievement3.3ff744b41eaca6bdf06c.jpg",
     "static/media/achievement1.JPG": "/static/media/achievement1.f8166938de87679ec9e3.JPG",
@@ -19,10 +19,10 @@
     "static/media/carebridge.png": "/static/media/carebridge.421f3100014d57952c35.png",
     "index.html": "/index.html",
     "main.280a9015.css.map": "/static/css/main.280a9015.css.map",
-    "main.c1380e75.js.map": "/static/js/main.c1380e75.js.map"
+    "main.915eb3f2.js.map": "/static/js/main.915eb3f2.js.map"
   },
   "entrypoints": [
     "static/css/main.280a9015.css",
-    "static/js/main.c1380e75.js"
+    "static/js/main.915eb3f2.js"
   ]
 }
