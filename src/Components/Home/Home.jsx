@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import profile from "../../assets/profile/pic.jpg";
-const IconSize = 30;
+import { useEffect, useState } from "react";
 
+const IconSize = 30;
 const icons = [
   {
     id: 1,
@@ -28,14 +29,27 @@ const icons = [
 ];
 
 export default function Home() {
+  const [time, setTime] = useState(new Date().toLocaleTimeString());
+  const date = new Date().toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
+  const day = new Date().toLocaleDateString("en-US", { weekday: "long" });
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTime(new Date().toLocaleTimeString());
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <div
       id="home"
       className="relative min-h-screen bg-[#ede6d9] flex items-center overflow-hidden"
     >
-      {/* <div className="absolute top-[-80px] right-[-80px] w-[400px] h-[400px] rounded-full bg-[#924399]/10 blur-3xl pointer-events-none" />
-      <div className="absolute bottom-[-60px] left-[-60px] w-[320px] h-[320px] rounded-full bg-[#007B7B]/10 blur-3xl pointer-events-none" /> */}
-
+      {/* MAIN CONTENT */}
       <div className="relative z-10 w-full max-w-6xl mx-auto px-6 md:px-16 py-16 flex flex-col-reverse md:flex-row items-center justify-between gap-14">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
@@ -48,7 +62,7 @@ export default function Home() {
             <span className="italic text-[#0B2E33]">Aiswarya Pokharel</span>
           </h1>
 
-          <span className="text-2xl lg:text-4xl font-outfit font-extrabold tracking-[2px] uppercase text-[#924399]  mt-6 block">
+          <span className="text-2xl lg:text-4xl font-outfit font-extrabold tracking-[2px] uppercase text-[#924399] mt-6 block">
             Frontend Developer
           </span>
 
@@ -61,8 +75,8 @@ export default function Home() {
                 rel="noopener noreferrer"
                 aria-label={item.label}
                 className={`w-12 h-12 rounded-full bg-white shadow-md flex items-center justify-center
-            ${item.className} 
-            transition-all duration-300 hover:scale-110 hover:shadow-lg`}
+      ${item.className} 
+      transition-all duration-300 hover:scale-110 hover:shadow-lg`}
               >
                 {item.icon}
               </a>

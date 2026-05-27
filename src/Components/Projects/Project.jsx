@@ -4,8 +4,17 @@ import { FiExternalLink } from "react-icons/fi";
 import ecommerce from "../../assets/projects/e-commerce.png";
 import movie from "../../assets/projects/movie.png";
 import carebridge from "../../assets/projects/carebridge.png";
+import reminder from "../../assets/projects/reminder.png";
 
 const projects = [
+  {
+    name: "Reminder App",
+    description:
+      "A full-stack reminder management app to help you stay on top of what matters.",
+    image: reminder,
+    link: "https://reminder-ui-tau.vercel.app/",
+    tags: ["React", "Tailwind CSS", "Python", "Django REST Framework"],
+  },
   {
     name: "Movie App",
     description: "A movie app built with React and Tailwind CSS.",
@@ -26,7 +35,7 @@ const projects = [
     description: "An e-commerce platform built with React and Tailwind CSS.",
     image: ecommerce,
     link: "https://aiswarya-pokharel.github.io/E-commerce-Website/",
-    tags: ["React", "Tailwind CSS"],
+    tags: ["React", "CSS"],
   },
 ];
 
